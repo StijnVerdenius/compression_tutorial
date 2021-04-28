@@ -53,7 +53,6 @@ def get_accuracy(output, y):
 
 
 def main():
-
     # built tensorboard writer
     writer = SummaryWriter(f"./logs/{str(datetime.now()).split(' ')[1]}")
 

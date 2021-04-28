@@ -1,5 +1,3 @@
-from typing import Any
-
 import torch.nn as nn
 
 from PrunableModel import PrunableModel
@@ -24,6 +22,3 @@ class FFNET(PrunableModel):
 
     def forward(self, x):
         return self.layers.forward(x)
-
-
-
